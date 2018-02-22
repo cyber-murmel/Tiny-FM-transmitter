@@ -1,169 +1,38 @@
 EESchema Schematic File Version 2
-LIBS:Amplifier_Audio
-LIBS:Amplifier_Buffer
-LIBS:Amplifier_Current
-LIBS:Amplifier_Difference
-LIBS:Amplifier_Instrumentation
-LIBS:Amplifier_Operational
-LIBS:Amplifier_Video
-LIBS:Analog
-LIBS:Analog_ADC
-LIBS:Analog_DAC
-LIBS:Analog_Switch
-LIBS:Audio
-LIBS:Battery_Management
-LIBS:Comparator
-LIBS:Connector_Generic
-LIBS:Connector_Generic_Shielded
-LIBS:Connector_Specialized
-LIBS:Converter_ACDC
-LIBS:Converter_DCDC
-LIBS:CPLD_Altera
-LIBS:CPLD_Xilinx
-LIBS:CPU
-LIBS:CPU_NXP_6800
-LIBS:CPU_NXP_68000
-LIBS:CPU_PowerPC
-LIBS:Device
-LIBS:Diode
-LIBS:Diode_Bridge
-LIBS:Diode_Laser
-LIBS:Display_Character
-LIBS:Display_Graphic
-LIBS:Driver_Display
-LIBS:Driver_FET
-LIBS:Driver_LED
-LIBS:Driver_Motor
-LIBS:Driver_Relay
-LIBS:DSP_Freescale
-LIBS:DSP_Microchip_DSPIC33
-LIBS:DSP_Motorola
-LIBS:DSP_Texas
-LIBS:FPGA_Actel
-LIBS:FPGA_Xilinx
-LIBS:FPGA_Xilinx_Artix7
-LIBS:FPGA_Xilinx_Kintex7
-LIBS:FPGA_Xilinx_Spartan6
-LIBS:FPGA_Xilinx_Virtex5
-LIBS:FPGA_Xilinx_Virtex6
-LIBS:FPGA_Xilinx_Virtex7
-LIBS:GPU
-LIBS:Graphic
-LIBS:Interface
-LIBS:Interface_CAN_LIN
-LIBS:Interface_CurrentLoop
-LIBS:Interface_Ethernet
-LIBS:Interface_Expansion
-LIBS:Interface_HID
-LIBS:Interface_LineDriver
-LIBS:Interface_Optical
-LIBS:Interface_Telecom
-LIBS:Interface_UART
-LIBS:Interface_USB
-LIBS:Isolator
-LIBS:Isolator_Analog
-LIBS:Jumper
-LIBS:LED
-LIBS:Logic_74xgxx
-LIBS:Logic_74xx
-LIBS:Logic_CMOS_4000
-LIBS:Logic_CMOS_IEEE
-LIBS:Logic_LevelTranslator
-LIBS:Logic_Programmable
-LIBS:Logic_TTL_IEEE
-LIBS:MCU_AnalogDevices
-LIBS:MCU_Atmel_8051
-LIBS:MCU_Atmel_ATMEGA
-LIBS:MCU_Atmel_ATTINY
-LIBS:MCU_Atmel_AVR
-LIBS:MCU_Cypress
-LIBS:MCU_Infineon
-LIBS:MCU_Intel
-LIBS:MCU_Microchip_PIC10
-LIBS:MCU_Microchip_PIC12
-LIBS:MCU_Microchip_PIC16
-LIBS:MCU_Microchip_PIC18
-LIBS:MCU_Microchip_PIC24
-LIBS:MCU_Microchip_PIC32
-LIBS:MCU_Microchip_SAME
-LIBS:MCU_Microchip_SAML
-LIBS:MCU_Module
-LIBS:MCU_NXP_ColdFire
-LIBS:MCU_NXP_HC11
-LIBS:MCU_NXP_HC12
-LIBS:MCU_NXP_HCS12
-LIBS:MCU_NXP_Kinetis
-LIBS:MCU_NXP_LPC
-LIBS:MCU_NXP_MAC7100
-LIBS:MCU_NXP_MCore
-LIBS:MCU_NXP_S08
-LIBS:MCU_Parallax
-LIBS:MCU_SiFive
-LIBS:MCU_SiliconLabs
-LIBS:MCU_ST_STM8
-LIBS:MCU_ST_STM32
-LIBS:MCU_Texas
-LIBS:MCU_Texas_MSP430
-LIBS:Mechanical
-LIBS:Memory_Controller
-LIBS:Memory_EEPROM
-LIBS:Memory_EPROM
-LIBS:Memory_Flash
-LIBS:Memory_NVRAM
-LIBS:Memory_RAM
-LIBS:Memory_ROM
-LIBS:Memory_UniqueID
-LIBS:Motor
-LIBS:Oscillator
-LIBS:Potentiometer_Digital
 LIBS:power
-LIBS:Power_Management
-LIBS:Power_Protection
-LIBS:Power_Supervisor
-LIBS:pspice
-LIBS:Reference_Current
-LIBS:Reference_Voltage
-LIBS:Regulator_Controller
-LIBS:Regulator_Current
-LIBS:Regulator_Linear
-LIBS:Regulator_SwitchedCapacitor
-LIBS:Regulator_Switching
-LIBS:Relay
-LIBS:Relay_SolidState
-LIBS:RF
-LIBS:RF_AM_FM
-LIBS:RF_Bluetooth
-LIBS:RF_GPS
-LIBS:RF_Mixer
-LIBS:RF_Module
-LIBS:RF_RFID
-LIBS:RF_WiFi
-LIBS:RF_ZigBee
-LIBS:Sensor
-LIBS:Sensor_Audio
-LIBS:Sensor_Current
-LIBS:Sensor_Gas
-LIBS:Sensor_Humidity
-LIBS:Sensor_Magnetic
-LIBS:Sensor_Motion
-LIBS:Sensor_Optical
-LIBS:Sensor_Pressure
-LIBS:Sensor_Proximity
-LIBS:Sensor_Temperature
-LIBS:Sensor_Touch
-LIBS:Sensor_Voltage
-LIBS:Switch
-LIBS:Timer
-LIBS:Timer_PLL
-LIBS:Timer_RTC
-LIBS:Transformer
-LIBS:Transistor_Array
-LIBS:Transistor_BJT
-LIBS:Transistor_FET
-LIBS:Transistor_IGBT
-LIBS:Triac_Thyristor
-LIBS:Valve
-LIBS:Video
+LIBS:device
+LIBS:switches
+LIBS:relays
+LIBS:motors
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:Tiny FM transmitter
+LIBS:Tiny FM transmitter-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -184,7 +53,7 @@ U 1 1 5A8E4B9E
 P 4900 2950
 F 0 "U1" H 4450 3350 60  0000 C CNN
 F 1 "MAX2605/6/7/8/9" H 5400 3350 60  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-6" H 6400 3300 60  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-6_Handsoldering" H 6400 3300 60  0001 C CNN
 F 3 "" H 6400 3300 60  0001 C CNN
 	1    4900 2950
 	1    0    0    -1  
@@ -195,7 +64,7 @@ U 1 1 5A8E4BE0
 P 4100 2750
 F 0 "L1" V 4050 2750 50  0000 C CNN
 F 1 "390nH" V 4175 2750 50  0000 C CNN
-F 2 "Inductor_SMD:L_0603_1608Metric" H 4100 2750 50  0001 C CNN
+F 2 "Inductors_SMD:L_0603_HandSoldering" H 4100 2750 50  0001 C CNN
 F 3 "" H 4100 2750 50  0001 C CNN
 	1    4100 2750
 	0    -1   -1   0   
@@ -234,7 +103,7 @@ U 1 1 5A8E4C7A
 P 4100 1600
 F 0 "BT1" H 4200 1700 50  0000 L CNN
 F 1 "Battery_Cell" H 4200 1600 50  0000 L CNN
-F 2 "Battery:BatteryHolder_CR2032H" V 4100 1660 50  0001 C CNN
+F 2 "Battery_Holders:Keystone_3034_1x20mm-CoinCell" V 4100 1660 50  0001 C CNN
 F 3 "" V 4100 1660 50  0001 C CNN
 	1    4100 1600
 	-1   0    0    -1  
@@ -286,7 +155,7 @@ U 1 1 5A8E598B
 P 3600 2600
 F 0 "RV1" V 3425 2600 50  0000 C CNN
 F 1 "POT" V 3500 2600 50  0000 C CNN
-F 2 "Potentiometer_SMD:Potentiometer_Bourns_3224J_Horizontal" H 3600 2600 50  0001 C CNN
+F 2 "Potentiometers:Potentiometer_Trimmer-EVM3E" H 3600 2600 50  0001 C CNN
 F 3 "" H 3600 2600 50  0001 C CNN
 	1    3600 2600
 	1    0    0    -1  
@@ -318,7 +187,7 @@ U 1 1 5A8E5C75
 P 6050 2900
 F 0 "R1" V 6130 2900 50  0000 C CNN
 F 1 "1k" V 6050 2900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5980 2900 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5980 2900 50  0001 C CNN
 F 3 "" H 6050 2900 50  0001 C CNN
 	1    6050 2900
 	0    -1   -1   0   
@@ -329,7 +198,7 @@ U 1 1 5A8E5CE6
 P 6050 3000
 F 0 "R2" V 6130 3000 50  0000 C CNN
 F 1 "1k" V 6050 3000 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 5980 3000 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 5980 3000 50  0001 C CNN
 F 3 "" H 6050 3000 50  0001 C CNN
 	1    6050 3000
 	0    1    1    0   
@@ -362,7 +231,7 @@ U 1 1 5A8E5E1E
 P 5050 1500
 F 0 "C2" H 5075 1600 50  0000 L CNN
 F 1 "1uF" H 5075 1400 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5088 1350 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5088 1350 50  0001 C CNN
 F 3 "" H 5050 1500 50  0001 C CNN
 	1    5050 1500
 	1    0    0    -1  
@@ -388,7 +257,7 @@ U 1 1 5A8E6124
 P 4250 3350
 F 0 "C1" H 4275 3450 50  0000 L CNN
 F 1 "1nF" H 4275 3250 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4288 3200 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 4288 3200 50  0001 C CNN
 F 3 "" H 4250 3350 50  0001 C CNN
 	1    4250 3350
 	1    0    0    -1  
@@ -419,7 +288,7 @@ U 1 1 5A8E6861
 P 3300 3400
 F 0 "MK1" H 3170 3450 50  0000 R CNN
 F 1 "Microphone_Condenser" H 3170 3375 50  0000 R CNN
-F 2 "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm" V 3300 3500 50  0001 C CNN
+F 2 "Tiny FM transmitter:HM4522P-423-G" V 3300 3500 50  0001 C CNN
 F 3 "" V 3300 3500 50  0001 C CNN
 	1    3300 3400
 	1    0    0    -1  
@@ -443,7 +312,7 @@ U 1 1 5A8E69B6
 P 3300 2950
 F 0 "R3" V 3380 2950 50  0000 C CNN
 F 1 "1k" V 3300 2950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3230 2950 50  0001 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 3230 2950 50  0001 C CNN
 F 3 "" H 3300 2950 50  0001 C CNN
 	1    3300 2950
 	1    0    0    -1  
@@ -469,7 +338,7 @@ U 1 1 5A8E6BEC
 P 3600 3150
 F 0 "C3" H 3625 3250 50  0000 L CNN
 F 1 "1uF" H 3625 3050 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 3638 3000 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3638 3000 50  0001 C CNN
 F 3 "" H 3600 3150 50  0001 C CNN
 	1    3600 3150
 	0    1    1    0   
@@ -484,7 +353,7 @@ U 1 1 5A8E700B
 P 5850 3200
 F 0 "C5" H 5875 3300 50  0000 L CNN
 F 1 "1nF" H 5875 3100 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5888 3050 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5888 3050 50  0001 C CNN
 F 3 "" H 5850 3200 50  0001 C CNN
 	1    5850 3200
 	1    0    0    -1  
@@ -495,7 +364,7 @@ U 1 1 5A8E705D
 P 5850 2700
 F 0 "C4" H 5875 2800 50  0000 L CNN
 F 1 "1nF" H 5875 2600 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 5888 2550 50  0001 C CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 5888 2550 50  0001 C CNN
 F 3 "" H 5850 2700 50  0001 C CNN
 	1    5850 2700
 	1    0    0    -1  
@@ -522,7 +391,7 @@ U 1 1 5A8E79F3
 P 4450 1350
 F 0 "U2" H 4250 1575 50  0000 L CNN
 F 1 "AP2204K-2.8" H 4450 1575 50  0000 L CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4450 1675 50  0001 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23-5_HandSoldering" H 4450 1675 50  0001 C CNN
 F 3 "" H 4450 1450 50  0001 C CNN
 	1    4450 1350
 	1    0    0    -1  
